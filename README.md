@@ -68,5 +68,5 @@ Una volta effettuato l'accesso si otterà il token con il quale sarà possibile 
 ```
 Per utilizzare il token quest'ultimo dovrà essere inserito nell'intestazione della richiesta con la quale si carica anche l'immagine, di seguito l'esempio di come inserire tramite Postman il token generato per l'utente
 
-![Installazione andata a buon fine](/demo/token.png)
+![Token su Postman](/demo/token.png)
 
