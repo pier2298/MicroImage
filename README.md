@@ -70,3 +70,6 @@ Per utilizzare il token quest'ultimo dovrà essere inserito nell'intestazione de
 
 ![Token su Postman](/demo/token.png)
 
+Se l'immagine e il token sono stati caricati correttamente, l'api restituirà un messaggio simile:
+
+![Token su Postman](/demo/complete.png)
