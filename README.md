@@ -1,7 +1,8 @@
 # MicroImage
 
 ## Descrizione: 
-Microimage è un microservizio operante attraverso il micro-framework Flask, realizzato in Python e con l'ausilio di SQLite per la persistenza dei dati.
+Microimage è un microservizio che data in input un immagine è in grado di rilevare se all'interno è presente un viso o meno, operante attraverso il micro-framework Flask, realizzato in Python e con l'ausilio di SQLite per la persistenza dei dati.
+Microimage utilizza JWT (JSON Web Token) per effettuare l'autenticazione e consentire l'utilizzo del microservizio da parte dell'utente.
 Sarà possibile utilizzare Microimage sia attraverso un container docker, sia attraverso un semplice VENV di python (Virtual Environments).
 
 ## Installazione: 
@@ -32,7 +33,10 @@ docker build -t nome_immagine .
 docker run -p 5000:5000 nome_immagine
 ```
 
+Se l'installazione è andata a buon fine si visualizzerà una schermata simile alla seguente:
+
 ![Installazione andata a buon fine](/demo/ok.png)
 
 ## Utilizzo
 
+Per utilizzare le api del microservizio è possibile utilizzare la piattaforma postman, oppure è possibile utilizzare l'interfaccia grafica progettata e sviluppata per l'utilizzo esclusivo di Microimage.
