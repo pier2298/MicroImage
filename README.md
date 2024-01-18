@@ -37,6 +37,18 @@ Se l'installazione è andata a buon fine si visualizzerà una schermata simile a
 
 ![Installazione andata a buon fine](/demo/ok.png)
 
+Prendere nota dell'indirizzo da utilizzare per usufruire delle API.
+I due indirizzi fanno riferimento rispettivamente all'indirizzo locale (localhost) , e all' indirizzo con il quale si può accedere esternamente all'interno della LAN. 
+Inoltre l'api è stata anche testata esposta su Internet tramite Ngrok e utilizzando docker, con esito positivo.
+
 ## Utilizzo
 
 Per utilizzare le api del microservizio è possibile utilizzare la piattaforma postman, oppure è possibile utilizzare l'interfaccia grafica progettata e sviluppata per l'utilizzo esclusivo di Microimage.
+
+Le api vengono esposte nel seguente modo, ovviamente è necessario cambiare "endpoint.com" con il proprio indirizzo
+
+```
+http://endpoint.com/api/register
+http://endpoint.com/api/login
+http://endpoint.com/api/images/upload
+```
