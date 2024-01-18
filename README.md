@@ -74,6 +74,6 @@ Se l'immagine e il token sono stati caricati correttamente, l'api restituirà un
 
 ![Token su Postman](/demo/complete.png)
 
-Infine come già anticipato è possibile utilizzare l'interfaccia grafica preposta per il test del microservizio:
+Infine come già anticipato è possibile utilizzare l'interfaccia grafica preposta per il test del microservizio (presente in demo/testJWT.html):
 
 ![Token su Postman](/demo/interface.png)
