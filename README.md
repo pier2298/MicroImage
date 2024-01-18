@@ -26,7 +26,9 @@ Usando Docker:
 ```
 git clone https://github.com/pier2298/Microimage.git
 cd Microimage
-docker build -t nome_immagine .
+
+# sostituire nome_immagine con il nome da dare al container
+docker build -t nome_immagine .   
 docker run -p 5000:5000 nome_immagine
 ```
 
