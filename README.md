@@ -13,8 +13,8 @@ Usando VENV:
 git clone https://github.com/pier2298/Microimage.git
 cd Microimage
 python -m venv venv
+
 source venv/bin/activate  # per sistemi basati su Unix
-# o
 .\venv\Scripts\activate  # per sistemi Windows
 
 pip install -r requirements.txt
