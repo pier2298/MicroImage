@@ -21,13 +21,14 @@ pip install -r requirements.txt
 python run.py
 ```
 
+Prima di procedere bisogna installare docker sul proprio sistema
 Usando Docker:
 ```
 git clone https://github.com/pier2298/Microimage.git
-cd tuo-progetto
-docker-compose up -d --build
+cd Microimage
+docker build -t nome_immagine .
+docker run -p 5000:5000 nome_immagine
 ```
 
-## Configurazione
-
 ## Utilizzo
+
