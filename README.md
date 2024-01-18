@@ -6,7 +6,7 @@ Sarà possibile utilizzare Microimage sia attraverso un container docker, sia at
 
 ## Installazione: 
 
-Questa versione è stata sviluppata e testata sulla versione 3.11.0 di Python, quindi onde evitare errori di compatibilità si prega di utilizzare la stessa versione di Python
+Questa versione di Microimage è stata sviluppata e testata sulla versione 3.11.0 di Python, quindi onde evitare errori di compatibilità si prega di utilizzare la stessa versione di Python
 
 Usando VENV:
 ```
