@@ -9,7 +9,12 @@ Sarà possibile utilizzare Microimage sia attraverso un container docker, sia at
 Usando VENV:
 ```
 git clone https://github.com/pier2298/Microimage.git
-cd tuo-progetto
+cd Microimage
+python -m venv venv
+source venv/bin/activate  # per sistemi basati su Unix
+# o
+.\venv\Scripts\activate  # per sistemi Windows
+
 pip install -r requirements.txt
 python run.py
 ```
