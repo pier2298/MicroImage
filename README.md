@@ -30,5 +30,7 @@ docker build -t nome_immagine .
 docker run -p 5000:5000 nome_immagine
 ```
 
+![Installazione andata a buon fine](/demo/ok.png)
+
 ## Utilizzo
 
