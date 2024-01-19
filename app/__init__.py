@@ -5,7 +5,7 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_jwt_extended import JWTManager
 from config import Config
-from app.models import db  # Importa la tua istanza di SQLAlchemy
+from app.models import db  # Importa istanza di SQLAlchemy
 
 
 app = Flask(__name__)

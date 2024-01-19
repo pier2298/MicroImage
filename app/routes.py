@@ -88,7 +88,8 @@ def handle_exception(e):
     response.content_type = 'application/json'
     return response
 
-@app.route('/protected', methods=['GET'])
+#route di prova per verificare il token
+@app.route('/api/protected', methods=['GET'])
 @jwt_required()
 def protected():
     current_user = get_jwt_identity()

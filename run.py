@@ -2,7 +2,7 @@
 
 from app import app,db
 
-# Aggiungi questa parte alla fine del tuo file run.py
+
 with app.app_context():
     db.create_all()
     
